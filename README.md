@@ -5,6 +5,15 @@
          3. Birliktelik Kurallarının Çıkarılması
          4. Çalışmanın Scriptini Hazırlama
          5. Sepet Aşamasındaki Kullanıcılara Ürün Önerisinde Bulunmak
+## Armut Project
+         1. Hizmet alan kullanıcıları ve bu kullanıcıların almış oldukları servis ve kategorileri içeren veri setini kullanarak Association Rule Learning ile ürün tavsiye sistemi oluşturulmak istenmektedir.
+         ####### Veri setinin açıklanması ####### 
+         2. UserId: Müşteri numarası
+         3. ServiceId: Her kategoriye ait anonimleştirilmiş servislerdir. (Örnek : Temizlik kategorisi altında koltuk yıkama servisi)
+         4. Bir ServiceId farklı kategoriler altında bulanabilir ve farklı kategoriler altında farklı servisleri ifade eder.
+         5.(Örnek: CategoryId’si 7 ServiceId’si 4 olan hizmet petek temizliği iken CategoryId’si 2 ServiceId’si 4 olan hizmet mobilya montaj)
+         6.CategoryId: Anonimleştirilmiş kategorilerdir. (Örnek : Temizlik, nakliyat, tadilat kategorisi)
+         7.CreateDate: Hizmetin satın alındığı tarih
 ## Content Based Recommendation
          1. TF-IDF Matrisinin Oluşturulması
          2. Cosine Similarity Matrisinin Oluşturulması
